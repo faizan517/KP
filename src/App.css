@@ -1,3 +1,15 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Apply to your root element or a global style */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +47,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.text {
+  font-family: "Urbanist"; /* Font family should be quoted and specify a fallback */
+  font-weight: 400; /* Font weight should be a number */
+  font-size: 32px; /* Font size should have units */
+  color: black; /* Color values do not need quotes */
+  text-align: left;
+  border-bottom-width: 3px; /* Specify units for border width */
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.text:hover {
+  /* Use the correct class name for hover */
+  border-bottom-color: black; /* Only the color changes on hover */
+}
+
+.navbar-brand {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 48px;
+  height: 48px;
+}
+
+.heading {
+  font-family: "Urbanist"; /* Ensure the font is applied correctly */
+  font-weight: 400; /* Font weight should be a number, not a string */
+  font-size: 24px; /* Font size should be a number without quotes */
+  color: black; /* Color should be specified without quotes */
+  border-bottom-width: 3px; /* Add units (px) */
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.heading:hover {
+  /* Ensure you're using the correct class name */
+  border-bottom-color: black; /* This changes the border color on hover */
+}
+
+.reverse-heading {
+  font-family: "Urbanist";
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: black; /* Default color is black */
 }
