@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/KP/static/css/main.76e7a552.css",
+    "main.js": "/KP/static/js/main.e0517229.js",
+    "static/js/453.9f93102e.chunk.js": "/KP/static/js/453.9f93102e.chunk.js",
+    "static/media/Poppins-Regular.ttf": "/KP/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/gradient.png": "/KP/static/media/gradient.0f1b437ae4b6e3565b83.png",
+    "index.html": "/KP/index.html",
+    "main.76e7a552.css.map": "/KP/static/css/main.76e7a552.css.map",
+    "main.e0517229.js.map": "/KP/static/js/main.e0517229.js.map",
+    "453.9f93102e.chunk.js.map": "/KP/static/js/453.9f93102e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76e7a552.css",
+    "static/js/main.e0517229.js"
+  ]
+}
